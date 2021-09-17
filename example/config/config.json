@@ -1,0 +1,18 @@
+{
+  "mqtt": {
+    "Address": "ssl://127.0.0.1:8883",
+    "ClientID": "example",
+    "KeepAlive": 30,
+    "CAPath": "cacert.pem",
+    "CertPath": "client-cert.pem",
+    "KeyPath": "client-key.pem"
+  },
+  "TDengine": {
+    "host": "127.0.0.1",
+    "port": 6030,
+    "user": "root",
+    "password": "taosdata",
+    "db": "test_mqtt"
+  },
+  "showSql": true
+}

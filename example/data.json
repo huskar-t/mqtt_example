@@ -1,0 +1,9 @@
+{
+  "info": {
+    "id": "device_id_01",
+    "type": "device_type_01",
+    "zone": "Asia"
+  },
+  "time": "2021-09-16 15:20:00",
+  "value": 123.456
+}

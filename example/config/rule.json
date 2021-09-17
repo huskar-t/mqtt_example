@@ -1,0 +1,39 @@
+[
+  {
+    "ruleName": "test_1",
+    "topic": "device_type_01",
+    "rule": {
+      "sTable": "device_type_01",
+      "table": {
+        "path": "info.id"
+      },
+      "tags": [
+        {
+          "name": "area",
+          "valueType": "string",
+          "length": 30,
+          "path": "info.zone"
+        }
+      ],
+      "columns": [
+        {
+          "name": "ts",
+          "valueType": "timeString",
+          "timeLayout": "2006-01-02 15:04:05",
+          "path": "time"
+        },
+        {
+          "name": "value",
+          "valueType": "float",
+          "path": "value"
+        },
+        {
+          "name": "test_default",
+          "valueType": "int",
+          "path": "",
+          "defaultValue": null
+        }
+      ]
+    }
+  }
+]
