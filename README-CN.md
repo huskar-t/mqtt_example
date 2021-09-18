@@ -3,6 +3,20 @@
 作为消费者接入 MQTT 消息,根据配置解析 json 写入 TDengine
 
 [English](README.md) | 简体中文
+
+## 编译方法
+1. 安装golang(1.14+) [https://golang.google.cn/doc/install](https://golang.google.cn/doc/install)
+2. 设置 golang 代理 
+```shell
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+3. 安装 TDengine 客户端 [https://www.taosdata.com/en/getting-started/](https://www.taosdata.com/en/getting-started/)
+4. 配置 C 编译环境(GCC)
+5. 在本项目目录执行
+```shell
+go build
+```
+
 ## MQTT 配置
 
 ```json

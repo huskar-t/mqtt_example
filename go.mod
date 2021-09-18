@@ -1,6 +1,6 @@
 module github.com/huskar-t/mqtt_example
 
-go 1.16
+go 1.14
 
 require (
 	github.com/sirupsen/logrus v1.8.1

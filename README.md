@@ -2,6 +2,20 @@
 Access the MQTT message as a consumer, parse the json according to the configuration and write it into TDengine
 
 English | [简体中文](README-CN.md)
+
+## Compilation method
+1. Install golang(1.14+) [https://golang.google.cn/doc/install](https://golang.google.cn/doc/install)
+2. Set up golang proxy
+```shell
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+3. Install the TDengine client [https://www.taosdata.com/en/getting-started/](https://www.taosdata.com/en/getting-started/)
+4. Configure C Compiler Environment(GCC)
+5. Execute in the project directory
+```shell
+go build
+```
+
 ## MQTT configuration
 
 ```json
